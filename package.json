@@ -8,8 +8,10 @@
   },
   "scripts": {
     "start": "node server/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run client",
-    "client": "webpack-dev-server"
+    "server": "node server/server.js",
+    "client": "webpack-dev-server",
+    "prod": "webpack",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run prod"
   },
   "keywords": [
     "websocket",
