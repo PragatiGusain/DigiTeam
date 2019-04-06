@@ -10,7 +10,7 @@
     "start": "node server/server.js",
     "server": "node server/server.js",
     "client": "webpack-dev-server",
-    "prod": "webpack",
+    "prod": "webpack - mode production",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run prod"
   },
   "keywords": [
@@ -45,6 +45,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.1"
+    "eslint-plugin-react": "^7.6.1",
+    "webpack-cli": "^3.3.0"
   }
 }
